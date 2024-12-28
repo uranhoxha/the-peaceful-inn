@@ -89,7 +89,7 @@ function BookingRow({
             : formatDistanceFromNow(startDate)}{" "}
           &rarr; {numNights} night stay
         </span>
-        <span>
+        <span style={{marginLeft: "15px"}}>
           {format(new Date(startDate), "MMM dd yyyy")} &mdash;{" "}
           {format(new Date(endDate), "MMM dd yyyy")}
         </span>
